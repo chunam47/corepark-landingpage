@@ -1,0 +1,9 @@
+.root {
+  .main {
+    flex: 1;
+  }
+
+  &.lockScroll {
+    overflow: hidden;
+  }
+}

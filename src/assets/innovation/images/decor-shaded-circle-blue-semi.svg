@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="57px" viewBox="0 0 57 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>装饰圆</title>
+    <defs>
+        <radialGradient cx="83.7723931%" cy="6.16678198%" fx="83.7723931%" fy="6.16678198%" r="93.6017764%" id="radialGradient-1">
+            <stop stop-color="#9AD4FF" offset="0%"></stop>
+            <stop stop-color="#55A1F3" offset="49.115815%"></stop>
+            <stop stop-color="#31179C" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="PC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="Apollo---Home" transform="translate(-1325.000000, -1549.000000)" fill="url(#radialGradient-1)">
+            <g id="section-2" transform="translate(-113.000000, 829.000000)">
+                <g id="deco" transform="translate(1438.000000, 616.000000)">
+                    <circle id="装饰圆" transform="translate(28.313936, 132.241624) scale(-1, 1) translate(-28.313936, -132.241624) " cx="28.3139364" cy="132.241624" r="28"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

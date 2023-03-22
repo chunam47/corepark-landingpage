@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'ClearSans';
+}
+html {
+  scroll-behavior: smooth;
+}
+
+a,
+p,
+span,
+h1,
+h2,
+h3 {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  user-select: none;
+}
+
+body {
+  width: 100%;
+  background: rgb(251, 254, 255);
+}
+
+:root {
+  --font-size-menu: 15px;
+  --color-white: rgb(255, 255, 255);
+  --blue: #004dff;
+  --border-color-blue: #004dff;
+  --border-color-blue-light: rgb(62, 120, 253);
+  --text-color-primary: #04004d;
+  --text-color-primary-hover: rgb(62, 120, 253);
+  --background-blue-light: #dfebff;
+  --background-blue-light-1: rgba(246, 249, 254, 1);
+  --background-blue: #554cff;
+  --background-blue-1: rgba(0, 77, 255, 1);
+  --background-blue-2: rgb(85, 77, 255);
+  --background-button-primary: rgba(0, 77, 255, 1);
+  --background-button-primary-hover: rgb(62, 120, 253);
+  --background-button-invest: linear-gradient(
+    90.87deg,
+    #004dff -41.78%,
+    #3584fb 32.56%,
+    #66b5f8 100%
+  );
+  --background-button-press: linear-gradient(
+    93.89deg,
+    #ffffff 2.12%,
+    rgba(255, 255, 255, 0.4) 98.13%
+  );
+  --background-button-press-old-version: linear-gradient(
+    129deg,
+    rgba(255, 255, 255, 0.6) 2.64%,
+    rgba(255, 255, 255, 0.2) 88.43%
+  );
+  --background-white-medium-opacity: rgba(255, 255, 255, 0.5);
+  --text-title-color: #04004d;
+  --text-italic-blue: linear-gradient(
+    90.87deg,
+    #004dff -41.78%,
+    #3584fb 32.56%,
+    #66b5f8 100%
+  );
+  --text-title-header-color: linear-gradient(
+    95.12deg,
+    #3e78fd 5.5%,
+    #4b5ffe 34.84%,
+    #554cff 88.84%
+  );
+  --text-neutral-color: #667386;
+  --hover-icon-blue: #554cff;
+  --light-blue: rgba(213, 233, 250, 0.5);
+}
+
+.non-action {
+  cursor: default;
+}
+
+/* @font-face {
+  font-family: 'ClearSans';
+  font-display: swap;
+  src: url('/fonts/ClearSans-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'ClearSans';
+  font-weight: 100;
+  font-display: swap;
+  src: url('/fonts/ClearSans-Thin.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'ClearSans';
+  font-weight: 300;
+  font-display: swap;
+  src: url('/fonts/ClearSans-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'ClearSans';
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/ClearSans-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'ClearSans';
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/ClearSans-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'ClearSans';
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/ClearSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'deToks';
+  font-display: swap;
+  src: url('/fonts/deToks.otf') format('truetype');
+} */

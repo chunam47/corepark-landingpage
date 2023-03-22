@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="533px" height="533px" viewBox="0 0 533 533" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>circles</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="PC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Apollo---about" transform="translate(-170.000000, -1554.000000)">
+            <g id="circles" transform="translate(154.000000, 1555.000000)" filter="url(#filter-1)">
+                <g transform="translate(17.000000, 0.000000)">
+                    <circle id="Oval" stroke="#434343" stroke-width="0.7" cx="265.5" cy="265.5" r="265.5"></circle>
+                    <circle id="Oval" stroke="#434343" stroke-width="0.69" cx="265.5" cy="265.5" r="246.5"></circle>
+                    <circle id="Oval" stroke="#434343" stroke-width="0.67" cx="265.5" cy="265.5" r="227.5"></circle>
+                    <circle id="Oval" stroke="#434343" stroke-width="0.66" cx="266" cy="266" r="208"></circle>
+                    <circle id="Oval" stroke="#434343" stroke-width="0.64" cx="266" cy="266" r="189"></circle>
+                    <circle id="Oval" stroke="#434343" stroke-width="0.62" cx="265.5" cy="265.5" r="169.5"></circle>
+                    <circle id="Oval" stroke="#434343" stroke-width="0.61" transform="translate(265.655969, 265.561252) rotate(-87.060000) translate(-265.655969, -265.561252) " cx="265.655969" cy="265.561252" r="150.544848"></circle>
+                    <circle id="Oval" stroke="#434343" stroke-width="0.59" transform="translate(265.725239, 265.561245) rotate(-87.870000) translate(-265.725239, -265.561245) " cx="265.725239" cy="265.561245" r="131.342424"></circle>
+                    <circle id="Oval" stroke="#434343" stroke-width="0.58" transform="translate(265.850056, 265.586058) rotate(-88.460000) translate(-265.850056, -265.586058) " cx="265.850056" cy="265.586058" r="112.14"></circle>
+                    <circle id="Oval" stroke="#434343" stroke-width="0.56" transform="translate(265.620665, 265.564693) rotate(-88.920000) translate(-265.620665, -265.564693) " cx="265.620665" cy="265.564693" r="92.9375758"></circle>
+                    <circle id="Oval" stroke="#434343" stroke-width="0.55" transform="translate(265.859201, 265.581791) rotate(-89.270000) translate(-265.859201, -265.581791) " cx="265.859201" cy="265.581791" r="73.7351515"></circle>
+                    <circle id="Oval" stroke="#434343" stroke-width="0.53" transform="translate(265.807407, 265.589974) rotate(-89.560000) translate(-265.807407, -265.589974) " cx="265.807407" cy="265.589974" r="54.5327273"></circle>
+                    <circle id="Oval" stroke="#434343" stroke-width="0.51" transform="translate(265.736767, 265.563440) rotate(-89.800000) translate(-265.736767, -265.563440) " cx="265.736767" cy="265.56344" r="35.330303"></circle>
+                    <path d="M250,266 C250,257.163444 257.163444,250 266,250 C274.836556,250 282,257.163444 282,266 C282,274.836556 274.836556,282 266,282 C257.163444,282 250,274.836556 250,266 L250,266 Z" id="Path" stroke="#434343" stroke-width="0.5"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
