@@ -1,0 +1,72 @@
+.security-container {
+  padding: 0 120px;
+  position: relative;
+
+  &__bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+
+    &::after {
+      content: '';
+      position: absolute;
+      background-image: url('../../assets/images/security/spher1.png');
+      width: 152px;
+      height: 100%;
+      left: 0;
+      top: 80px;
+    }
+    &::before {
+      content: '';
+      position: absolute;
+      background-image: url('../../assets/images/security/spher2.png');
+      width: 152px;
+      height: 100%;
+      right: 0;
+      top: 80px;
+    }
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 46px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #f0f7f8;
+    margin-bottom: 20px;
+  }
+
+  &__desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 132.5%;
+    text-align: center;
+    color: #00e7f1;
+    margin-bottom: 72px;
+  }
+
+  &__box {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 80px;
+    padding: 0 60px;
+    div {
+      background: linear-gradient(
+        90deg,
+        #5761d7 0.06%,
+        #5472d8 7.32%,
+        #4e9cdb 27.99%,
+        #49bddd 48.1%,
+        #45d5df 67.25%,
+        #43e3e0 85.04%,
+        #42e8e0 100.12%
+      );
+      opacity: 0.5;
+      height: 300px;
+    }
+  }
+}

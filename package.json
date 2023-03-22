@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": " concurrently \" yarn tailwind \" \"next dev -p 8081\"",
+    "dev": " concurrently \" yarn tailwind \" \"next dev -p 3000\"",
     "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
@@ -30,6 +30,7 @@
     "@types/react": "18.0.24",
     "@types/react-dom": "18.0.8",
     "@types/react-lottie": "^1.2.6",
+    "@types/styled-components": "^5.1.26",
     "@zeit/next-css": "^1.0.1",
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",

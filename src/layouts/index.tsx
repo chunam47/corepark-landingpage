@@ -11,8 +11,8 @@ interface ILayout extends PropsWithChildren {
 
 const Layout: FC<ILayout> = ({
   children,
-  title = 'Meta Node',
-  description = 'Tokenomic',
+  title = 'COREPARK',
+  description = 'COREPARK',
 }) => {
   return (
     <>

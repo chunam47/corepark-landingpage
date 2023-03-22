@@ -48,44 +48,14 @@ const nextConfig = {
     hideSourceMaps: true,
     disableServerWebpackPlugin: true,
   },
-
-  // export config --- don't remove
-  // assetPrefix: './',
-  // exportPathMap: async function (
-  //   defaultPathMap,
-  //   { dev, dir, outDir, distDir, buildId },
-  // ) {
-  //   return {
-  //     '/': { page: '/' },
-  //     '/bath-room': { page: '/about' },
-  //     '/customer-story': { page: '/customer-story' },
-  //     '/design-galley': { page: '/design-galley' },
-  //     '/home-office': { page: '/home-office' },
-  //     '/space-saving': { page: '/space-saving' },
-  //     '/wardrobes': { page: '/wardrobes' },
-  //     '/modular-kitchen': { page: '/modular-kitchen' },
-  //   };
-  // },
 };
 
-if (prod) {
-  console.log({ prod });
-  // nextConfig.assetPrefix = './';
-  nextConfig.exportPathMap = async function (
-    defaultPathMap,
-    { dev, dir, outDir, distDir, buildId },
-  ) {
-    // only export tokenomic
-    return {
-      '/index': { page: '/' },
-      '/privacy': { page: '/privacy' },
-      '/contact': { page: '/contact' },
-      '/about-us': { page: '/about-us' },
-      '/tokenomic': { page: '/tokenomic' },
-      '/tokenomic/invest-now-pay-later': { page: '/tokenomic/invest-now-pay-later' },
-    };
-  };
-}
+module.exports = {
+  compiler: {
+    // ssr and displayName are configured by default
+    styledComponents: true,
+  },
+};
 
 module.exports = prod
   ? withSentryConfig(nextConfig, sentryWebpackPluginOptions)

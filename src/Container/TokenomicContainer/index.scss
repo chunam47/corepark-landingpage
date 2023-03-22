@@ -1,0 +1,34 @@
+.tokenomic-container {
+  padding: 124px 120px 64px 120px;
+
+  &__table {
+    border: 1px solid #00a8a8;
+    padding: 33px 18px 61px 20px;
+    background: linear-gradient(
+      246.85deg,
+      rgba(0, 168, 168, 0.02) 8.65%,
+      rgba(0, 231, 153, 0.02) 104.82%
+    );
+    backdrop-filter: blur(31.5px);
+
+    &--item {
+      padding-bottom: 33px;
+      display: grid;
+      grid-template-columns: 50% 20% 30%;
+      span {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 132.5%;
+        color: #f0f7f8;
+      }
+    }
+    .total-supply {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 31px;
+      text-transform: uppercase;
+      color: #00e7f1;
+    }
+  }
+}

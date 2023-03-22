@@ -10,7 +10,11 @@
 @import 'root.css';
 @import 'main.scss';
 @import 'tailwind.css';
-@import 'select2.css';
 
 // Layout
-@import '../../layouts/index.scss';
+
+// component
+@import '../../Container/HomeContainer/index.scss';
+@import '../../Container/FeaturesContainer/index.scss';
+@import '../../Container/SecurityContainer/index.scss';
+@import '../../Container/TokenomicContainer/index.scss';

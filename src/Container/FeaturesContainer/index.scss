@@ -1,0 +1,49 @@
+.features-container {
+  padding: 0 120px;
+  background-image: url('../../assets/images/features/bg.png');
+  background-size: cover;
+
+  .features-container-root {
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #f0f7f8;
+    margin-bottom: 24px;
+  }
+
+  &__desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 132.5%;
+    color: #00e7f1;
+    margin-bottom: 24px;
+  }
+
+  &__button {
+    background: linear-gradient(246.85deg, #00a8a8 8.65%, #00e799 104.82%);
+    width: 260px;
+    margin-bottom: 44px;
+  }
+
+  &__img {
+    width: 337px;
+    height: 272px;
+    margin-bottom: 150px;
+  }
+
+  &__left {
+    &--img {
+      position: absolute;
+      right: -50px;
+      top: 135px;
+    }
+  }
+}
