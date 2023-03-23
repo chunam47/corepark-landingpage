@@ -12,7 +12,7 @@ const HomeContainer = () => {
           <h1>Swap, earn and build </h1>
           <p>on top of Coredao decentralized cryptocurrency trading protocol.</p>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center button-home-page">
           <Button
             text="Public Sale"
             src={button1}
