@@ -42,6 +42,8 @@ const Layout: FC<ILayout> = ({
 
         {/* <!--  Non-Essential, But Required for Analytics --> */}
         <meta name="referrer" content="origin" />
+
+        <link rel="icon" href="../assets/images/logo.png" />
       </Head>
       <Header />
       <main>{children}</main>
