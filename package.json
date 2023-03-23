@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": " concurrently \" yarn tailwind \" \"next dev -p 3000\"",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "tailwind": "postcss src/assets/styles/tailwind.scss -o src/assets/styles/global.scss --watch",
