@@ -84,3 +84,11 @@
     }
   }
 }
+
+@media screen and (max-width: 375px) {
+  .tokenomic-container {
+    &__right {
+      width: 100%;
+    }
+  }
+}

@@ -13,11 +13,9 @@ export default function Footer() {
           </div>
           <div className="menu-footer">
             <div className="title-footer">COMMUNITY</div>
-            <div>
-              <span>Discord</span>
-              <span>Twitter</span>
-              <span>Telegram</span>
-            </div>
+            <span>Discord</span>
+            <span>Twitter</span>
+            <span>Telegram</span>
           </div>
           <div className="menu-footer">
             <div className="title-footer">DOCUMENTATION</div>

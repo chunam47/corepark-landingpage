@@ -48,3 +48,41 @@
     }
   }
 }
+
+@media screen and (max-width: 375px) {
+  .root-roadmap {
+    padding-left: 20px;
+    padding-right: 20px;
+    .roadmap-container {
+      padding: 0 0 152px 0;
+      background-image: url('../../assets/images/bg-roadmap.png');
+      background-size: contain;
+
+      &__content {
+        &--item {
+          .dot {
+            width: 44%;
+            top: 15px;
+          }
+        }
+
+        .roadmap-bg {
+          width: 100%;
+        }
+
+        .title {
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 31px;
+          text-transform: uppercase;
+          color: #00e7f1;
+        }
+
+        .decs {
+          font-size: 18px;
+          line-height: 120.5%;
+        }
+      }
+    }
+  }
+}

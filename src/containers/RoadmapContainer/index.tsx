@@ -71,7 +71,7 @@ const RoadmapContainer = () => {
                 <div className="roadmap-container__content--item">
                   {item.src && <img className="dot" src={item.src.src} alt="" />}
                   <div className="relative">
-                    <img src={roadmapContent.src} alt="" />
+                    <img className="roadmap-bg" src={roadmapContent.src} alt="" />
                     <div className="title">{item.title}</div>
                     <div className="decs">
                       <ul className="list-disc">

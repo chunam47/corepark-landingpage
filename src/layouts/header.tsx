@@ -58,18 +58,6 @@ export default function Header() {
       <div className={`header-corepark ${scrollTop > 75 ? 'backgound-header' : ''}`}>
         <div className="max-width-1276 content-header">
           <img className="logo-corepark" src={logo.src} alt="" />
-          {/* <div className="menu">
-            {dataMenu.map((item, index) => (
-              <div onClick={() => handleClick(item)} key={index}>
-                <a
-                  className={`menu-item ${active === item ? 'active' : ''}`}
-                  href={item.onclick}>
-                  {item.title}
-                </a>
-              </div>
-            ))}
-            <Button src={button} text="Connect Wallet" textColor="f0f7f8" />
-          </div> */}
           <div>
             <div className="menu-container">
               <Menu className="menu">
@@ -89,7 +77,7 @@ export default function Header() {
               placement="right"
               closable={true}
               onClose={showDrawer}
-              visible={visible}
+              open={visible}
               style={{ zIndex: 99999 }}>
               <Menu>
                 <Menu.Item key="about">About</Menu.Item>
