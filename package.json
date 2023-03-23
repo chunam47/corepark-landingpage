@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "tailwind": "postcss src/assets/styles/tailwind.scss -o src/assets/styles/global.scss --watch",
-    "analyze": "ANALYZE=true next build"
+    "tailwind": "postcss src/assets/styles/tailwind.scss -o src/assets/styles/global.scss --watch"
   },
   "browserslist": [
     ">0.3%",
