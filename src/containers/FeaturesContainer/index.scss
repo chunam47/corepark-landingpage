@@ -1,5 +1,5 @@
 .features-container {
-  padding: 0 120px;
+  padding: 0 32px;
   background-image: url('../../assets/images/features/bg.png');
   background-size: cover;
 
@@ -39,11 +39,68 @@
     margin-bottom: 150px;
   }
 
-  &__left {
+  &__right {
     &--img {
       position: absolute;
       right: -50px;
       top: 135px;
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .features-container {
+    .features-container-root {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 200px;
+    }
+
+    &__right {
+      &--img {
+        top: 228px;
+        right: 0;
+        left: unset;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1240px) {
+  .features-container {
+    .features-container-root {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 200px;
+    }
+
+    &__left {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &__img {
+      margin-bottom: 32px;
+    }
+    &__right {
+      &--img {
+        position: unset;
+      }
+    }
+  }
+}
+@media screen and (max-width: 425px) {
+  .features-container {
+    .features-container-root {
+      padding-bottom: 156px;
+    }
+    &__right {
+      &--img {
+        width: 100%;
+      }
     }
   }
 }

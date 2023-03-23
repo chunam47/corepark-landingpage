@@ -1,5 +1,5 @@
 .tokenomic-container {
-  padding: 124px 120px 64px 120px;
+  padding: 124px 32px 64px 32px;
 
   &__table {
     border: 1px solid #00a8a8;
@@ -29,6 +29,58 @@
       line-height: 31px;
       text-transform: uppercase;
       color: #00e7f1;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .tokenomic-container {
+    &__content {
+      flex-direction: column;
+      align-items: center;
+      &--img {
+        display: flex;
+        justify-content: center;
+        img {
+          width: auto;
+        }
+      }
+    }
+
+    &__right {
+      justify-content: center;
+      width: 70%;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .tokenomic-container {
+    &__right {
+      width: 80%;
+    }
+  }
+}
+@media screen and (max-width: 425px) {
+  .tokenomic-container {
+    &__content {
+      &--img {
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    &__table {
+      &--item {
+        span {
+          font-size: 13px;
+          line-height: 18px;
+        }
+      }
+      .total-supply {
+        font-size: 16px;
+        line-height: 24px;
+      }
     }
   }
 }

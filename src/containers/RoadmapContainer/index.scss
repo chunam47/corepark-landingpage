@@ -1,6 +1,6 @@
 .root-roadmap {
   .roadmap-container {
-    padding: 0 120px;
+    padding: 0 32px 152px 32px;
     background-image: url('../../assets/images/bg-roadmap.png');
     background-size: contain;
 
@@ -12,6 +12,38 @@
           right: 0;
           top: 20px;
         }
+      }
+
+      .title {
+        position: absolute;
+        font-style: normal;
+        top: 32px;
+        left: 56%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 100%;
+
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 31px;
+        text-transform: uppercase;
+        color: #00e7f1;
+      }
+
+      .decs {
+        position: absolute;
+
+        top: 20%;
+        left: 54%;
+        -webkit-transform: translate(-50%);
+        transform: translate(-50%);
+        width: 83%;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 132.5%;
+        color: #f0f7f8;
       }
     }
   }

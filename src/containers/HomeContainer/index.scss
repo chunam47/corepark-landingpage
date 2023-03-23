@@ -1,72 +1,10 @@
 .home-container {
-  padding: 70px 120px 0 120px;
+  padding: 70px 32px 0 32px;
   position: relative;
   background-image: url('../../assets/images/bg-home.png');
   height: 1149px;
   background-size: cover;
-  // background-position: bottom;
-  .bg-light {
-    position: absolute;
-    z-index: 2;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    inset: 0;
-    background: radial-gradient(
-      42.83% 40.15% at 48.67% 53.56%,
-      #206476 0%,
-      #00091c 100%
-    );
-  }
-
-  .bg-home-container {
-    position: absolute;
-    background-image: url('../../assets/images/background1.png');
-    width: 100%;
-    height: 100%;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    opacity: 0.5;
-    background-size: cover;
-    background-position: bottom;
-    bottom: unset;
-    top: -200px;
-  }
-
-  .bg-grid-1 {
-    position: absolute;
-    background-image: url('../../assets/images/grid1.png');
-    background-size: cover;
-    width: 50%;
-    height: 100%;
-    inset: 0;
-    left: 0;
-    right: unset;
-  }
-  .bg-grid-2 {
-    position: absolute;
-    background-image: url('../../assets/images/grid2.png');
-    background-size: cover;
-    width: 50%;
-    height: 100%;
-    inset: 0;
-    right: 0;
-    left: unset;
-  }
-
-  .bg-subtract {
-    background-image: url(/_next/static/media/Subtract.84f5faf0.png);
-    position: absolute;
-    width: 100%;
-    height: 50%;
-    left: 0;
-    right: 0;
-    top: 90px;
-    background-size: cover;
-    top: 433px;
-    opacity: 0.5;
-  }
+  background-position: bottom center;
   .title {
     padding: 44px 30px;
     h1 {
@@ -137,5 +75,46 @@
   .img-home-center {
     top: -600px;
     z-index: 5;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .home-container {
+    height: 800px;
+
+    .title {
+      h1 {
+        font-size: 52px;
+        line-height: 49px;
+      }
+      p {
+        font-size: 24px;
+        line-height: 26px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .home-container {
+    height: 660px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .home-container {
+    height: 355px;
+
+    .title {
+      padding: 30px 0 70px 0;
+
+      h1 {
+        font-size: 32px;
+        line-height: 36px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 132.5%;
+        font-weight: 500;
+      }
+    }
   }
 }
