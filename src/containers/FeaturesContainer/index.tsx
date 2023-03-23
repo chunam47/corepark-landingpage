@@ -1,6 +1,8 @@
 import React from 'react';
 import hexa from '@assets/images/features/hexa.png';
 import imgFeatures from '@assets/images/features.png';
+import Button from '../../components/Button';
+import button from '@assets/images/button3.png';
 
 const FeaturesContainer = () => {
   return (
@@ -15,9 +17,15 @@ const FeaturesContainer = () => {
               farming, and affiliate programs. It's a must-have platform for anyone
               looking to participate in the future of decentralized finance.
             </span>
-            <button className="features-container__button px-6 py-3">
-              Check out our features
-            </button>
+
+            <div className="w-fit">
+              <Button
+                text="Check out our features"
+                textColor="f0f7f8"
+                src={button}
+                className=" px-6 py-3 w-['180px']"
+              />
+            </div>
             <img className="features-container__img" src={hexa.src} alt="" />
           </div>
           <div className="features-container__left">

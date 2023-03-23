@@ -10,6 +10,9 @@ import chart7 from '@assets/images/img8.png';
 import chart8 from '@assets/images/img9.png';
 import chart9 from '@assets/images/img10.png';
 import imgCenter from '@assets/images/img4.png';
+import Button from '../../components/Button';
+import button1 from '@assets/images/button1.png';
+import button2 from '@assets/images/button2.png';
 
 const HomeContainer = () => {
   return (
@@ -19,10 +22,17 @@ const HomeContainer = () => {
         <p>on top of Coredao decentralized cryptocurrency trading protocol.</p>
       </div>
       <div className="flex justify-center items-center">
-        <button className="button-public">Public Sale</button>
+        <Button
+          text="Public Sale"
+          src={button1}
+          textColor="#f0f7f8"
+          className="mr-8"
+        />
+        <Button text="Launch Application" src={button2} textColor="#00E799" />
+        {/* <button className="button-public">Public Sale</button>
         <button className="button-launch">
           <span>Launch Application</span>
-        </button>
+        </button> */}
       </div>
     </div>
   );

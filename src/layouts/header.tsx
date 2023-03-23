@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import logo from '@assets/images/logo.png';
+import button from '@assets/images/button1.png';
+import Button from '../components/Button';
 
 export default function Header() {
   const dataMenu = [
@@ -48,9 +50,7 @@ export default function Header() {
               </a>
             </div>
           ))}
-          <a className="connect-wallet" href="">
-            Connect Wallet
-          </a>
+          <Button src={button} text="Connect Wallet" textColor="f0f7f8" />
         </div>
       </div>
     </React.Fragment>

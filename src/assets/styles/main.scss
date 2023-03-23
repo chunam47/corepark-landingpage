@@ -56,6 +56,13 @@ body {
     user-select: none;
   }
   font-family: 'Neue Machina' !important;
+}
+
+.bg-body {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: -10;
   background: radial-gradient(
     42.83% 40.15% at 48.67% 53.56%,
     #206476 0%,
@@ -89,6 +96,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: absolute;
+  z-index: 99;
+  width: 100%;
 
   .menu {
     display: flex;
@@ -106,10 +116,24 @@ body {
       line-height: 127%;
       color: #f0f7f8;
     }
+  }
+}
 
-    .connect-wallet {
-      padding: 12px 24px;
-      background: linear-gradient(246.85deg, #00a8a8 8.65%, #00e799 104.82%);
-    }
+.button-custom {
+  .button-box {
+    position: relative;
+    text-align: center;
+  }
+  .text-button {
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 127%;
+    color: #f0f7f8;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
   }
 }

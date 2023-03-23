@@ -1,0 +1,18 @@
+.root-roadmap {
+  .roadmap-container {
+    padding: 0 120px;
+    background-image: url('../../assets/images/bg-roadmap.png');
+    background-size: contain;
+
+    &__content {
+      &--item {
+        position: relative;
+        .dot {
+          position: absolute;
+          right: 0;
+          top: 20px;
+        }
+      }
+    }
+  }
+}

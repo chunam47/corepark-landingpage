@@ -2,40 +2,25 @@ import React from 'react';
 import styled, { css } from 'styled-components';
 
 interface Props {
-  titleButton?: string;
-  style?: {};
-  bg?: string;
+  src: any;
+  textColor: string;
+  text: string;
+  className?: string;
 }
 
-const Button = ({ titleButton, style, bg }: Props) => {
-  return <ButtonWrapper style={style}>{titleButton}</ButtonWrapper>;
+const Button = ({ src, textColor, text, className }: Props) => {
+  return (
+    <div>
+      <div className={`button-custom ${className}`}>
+        <a href="" className="button-box">
+          <img src={src.src} alt="" />
+          <p className="text-button" style={{ color: textColor }}>
+            {text}
+          </p>
+        </a>
+      </div>
+    </div>
+  );
 };
 
 export default Button;
-
-const ButtonWrapper = styled.button`
-  padding: 13px 40px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 127%;
-  position: relative;
-
-  &:after,
-  &:before {
-    content: '';
-    position: absolute;
-    height: 0;
-    width: 0;
-    border-style: solid;
-    border-color: transparent #ccc;
-  }
-  &:before {
-    left: -17px;
-    border-width: 17px 17px 17px 0;
-  }
-  &:after {
-    right: -17px;
-    border-width: 17px 0 17px 17px;
-  }
-`;
